@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    color:white;
+    padding: 10px;
+    font-size: 3rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 10px 8px rgba(230, 202, 202, 0.126);
+}
+
+
+
+#about {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -10vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+
+}
+#skills {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: rgb(249, 246, 246);
+    color:black;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    
+    
+}
+#button{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: rgb(249, 246, 246);
+    text-align: center;
+    color:white;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+#button{
+    flex-wrap: wrap;
+}
+#div1{
+    width: 200px;
+    height: 100px;
+    color: white;
+    box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    flex-wrap: wrap;
+    background-color:blueviolet;
+    font-size: 2rem;
+    border-radius: 15px;
+}
+#div1:hover{
+    box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+    
+}
+#div2{
+    width: 200px;
+    height: 100px;
+    color:white;
+    background-color:brown ;
+    font-size: 2rem;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    }
+    #div2:hover{
+        box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+        
+    }
+#div3{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color:blue ;
+    font-size: 2rem;
+    border-radius: 15px;
+    flex-wrap: wrap;
+ box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    }
+    #div3:hover{
+        box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+        
+    }
+#div4{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color:rgb(41, 65, 16) ;
+    font-size: 2rem;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    }
+    #div4:hover{
+        box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+        
+    }
+#div5{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color:rgb(255, 80, 80) ;
+    font-size: 2rem;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    }
+    #div5:hover{
+        box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+        
+    }
+#div6{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color:rgb(255, 0, 119);
+    font-size: 2rem;
+    flex-wrap: wrap;
+    border-radius: 15px;
+ box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+    
+}
+#div6:hover{
+    box-shadow: 0px 0px 8px 6px rgba(212, 20, 20, 0.3);
+    
+}
+#contact{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient( 60deg ,rgb(34, 34, 196),rgb(105, 121, 202));
+    color:white;
+}
